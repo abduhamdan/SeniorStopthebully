@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginBottom="3dp"
+    android:background="@drawable/ash_goldsbrough_eyx3culrcje_unsplash"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/profileprog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#DDFFFFFF"
+            tools:context=".ProfileFragment">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/profilepicture"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        android:layout_span="2"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/dp1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="0dp">
+
+                    <Button
+                        android:id="@+id/SaveImage22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="#DDFFFFFF"
+                        android:enabled="false"
+                        android:fontFamily="@font/aclonica"
+                        android:text="Save"
+                        android:textColor="@color/TwiterBlue"
+                        android:textColorHint="#40C83429"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/nameProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="right"
+                        android:text="Name:"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/nameProfileX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:paddingLeft="10dp"
+                        android:text="TextView"
+                        android:textColor="@color/Textwhite"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/emailProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="right"
+                        android:text="Email:"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/emailProfileX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:paddingLeft="10dp"
+                        android:text="TextView"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/twitterProifle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="right"
+                        android:text="Twitter ID:"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/twitterProfileX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:paddingLeft="10dp"
+                        android:text="TextView"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/ageProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="right"
+                        android:text="Age group:"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/ageProfileX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:paddingLeft="10dp"
+                        android:text="TextView"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/religionProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="right"
+                        android:text="Religion:"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/religionProfileX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:paddingLeft="10dp"
+                        android:text="TextView"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/sexualityProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="right"
+                        android:text="Sexuality:"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/sexualityProfileX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:paddingLeft="10dp"
+                        android:text="TextView"
+                        android:textColor="#DDFFFFFF"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="40dp">
+
+                    <Button
+                        android:id="@+id/logoutbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="#DDFFFFFF"
+                        android:fontFamily="@font/aclonica"
+                        android:text="log out"
+                        android:textColor="@color/TwiterBlue"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:backgroundTint="#DDFFFFFF"
+                        android:fontFamily="@font/aclonica"
+                        android:text="edit profile"
+                        android:textColor="@color/TwiterBlue"
+                        android:textSize="20dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

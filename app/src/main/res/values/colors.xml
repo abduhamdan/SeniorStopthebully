@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="OurBlue">#123abc</color>
+    <color name="Background">#C83429</color>
+    <color name="MainBackground">#B7C83429</color>
+    <color name="Textwhite">#DDFFFFFF</color>
+    <color name="TwiterBlue">#2098FE</color>
+    <color name="textblack">#90000000</color>
+
+</resources>

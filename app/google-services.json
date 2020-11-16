@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "672962406596",
+    "firebase_url": "https://seniordesign-16b47.firebaseio.com",
+    "project_id": "seniordesign-16b47",
+    "storage_bucket": "seniordesign-16b47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672962406596:android:743f4f12d806b6836b4191",
+        "android_client_info": {
+          "package_name": "com.example.tabview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672962406596-1mvsk6jlibgcj9ve4o7pchg1om92vbc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNV6uBFpHXfMOr71gOVdF_bEWXhaU77n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672962406596-1mvsk6jlibgcj9ve4o7pchg1om92vbc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
