@@ -1,6 +1,5 @@
-package com.example.tabview;
+package com.SeniorBullyingApp.tabview;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -41,6 +40,8 @@ import com.google.firebase.storage.UploadTask;
 import java.io.FileDescriptor;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+
+import Models.User;
 
 import static android.app.Activity.RESULT_OK;
 import static androidx.constraintlayout.widget.Constraints.TAG;

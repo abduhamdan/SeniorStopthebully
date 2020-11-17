@@ -1,4 +1,4 @@
-package com.example.tabview;
+package com.SeniorBullyingApp.tabview;
 
 import android.os.Bundle;
 

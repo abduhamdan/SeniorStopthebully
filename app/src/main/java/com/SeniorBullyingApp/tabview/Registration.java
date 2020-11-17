@@ -1,4 +1,4 @@
-package com.example.tabview;
+package com.SeniorBullyingApp.tabview;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -16,7 +16,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentActivity;
 
 import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
@@ -26,15 +25,10 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import org.w3c.dom.Text;
-
-import java.util.ArrayList;
-
-import static androidx.constraintlayout.widget.Constraints.TAG;
+import Models.User;
 
 public class Registration extends Activity implements View.OnClickListener {
     private FirebaseAuth mAuth;

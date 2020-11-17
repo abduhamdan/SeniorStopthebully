@@ -1,4 +1,4 @@
-package com.example.tabview;
+package com.SeniorBullyingApp.tabview;
 
 import org.junit.Test;
 

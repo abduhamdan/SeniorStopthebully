@@ -1,4 +1,4 @@
-package com.example.tabview;
+package com.SeniorBullyingApp.tabview;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -15,7 +15,6 @@ import android.widget.TextView;
 import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
 import com.chaquo.python.android.AndroidPlatform;
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -23,10 +22,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.lang.reflect.Array;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
+
+import Models.User;
 
 import static androidx.constraintlayout.widget.Constraints.TAG;
 

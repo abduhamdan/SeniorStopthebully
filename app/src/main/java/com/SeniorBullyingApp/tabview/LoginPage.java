@@ -1,4 +1,4 @@
-package com.example.tabview;
+package com.SeniorBullyingApp.tabview;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,7 +17,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
-import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 
 public class LoginPage extends AppCompatActivity implements View.OnClickListener {
 private Button signupscreen;

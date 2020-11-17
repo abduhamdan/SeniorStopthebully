@@ -12,15 +12,15 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="407dp"
-        android:layout_height="658dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="550dp"
+        app:layout_constraintStart_toStartOf="@id/editTextTextPersonName"
         app:layout_constraintTop_toTopOf="parent">
 
     </androidx.recyclerview.widget.RecyclerView>
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/sendMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
@@ -37,7 +37,7 @@
         android:layout_marginRight="264dp"
         android:layout_marginBottom="9dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/sendMessage"
         app:layout_constraintTop_toBottomOf="@+id/recyclerView"
         app:layout_constraintVertical_bias="1.0" />
 
