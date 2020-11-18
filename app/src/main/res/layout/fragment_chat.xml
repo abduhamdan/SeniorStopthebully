@@ -12,7 +12,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="407dp"
-        android:layout_height="550dp"
+        android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/editTextTextPersonName"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
 
     <ProgressBar
-        android:id="@+id/progressBar2"
+        android:id="@+id/PBChat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"

@@ -9,12 +9,12 @@ public class Message {
         this.message = message;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserame(String name) {
+        this.username = name;
     }
 
     public String getKey() {
@@ -29,15 +29,15 @@ public class Message {
 
     public Message(String message, String name) {
         this.message = message;
-        this.name = name;
+        this.username = name;
     }
 
-    String name;
+    String username;
     String key;
 
     public Message(String message, String name, String key) {
         this.message = message;
-        this.name = name;
+        this.username = name;
         this.key = key;
     }
 
@@ -48,7 +48,7 @@ public class Message {
 
         return "Message{"+
                 "message='"+message +'\''+
-                ", name='"+name+'\''+
+                ", username='"+username+'\''+
                 ", key='"+key+ '\''+
                 "}";
     }

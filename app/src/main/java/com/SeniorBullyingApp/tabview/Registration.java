@@ -148,10 +148,10 @@ public class Registration extends Activity implements View.OnClickListener {
             tusername.requestFocus();
             return;
         }
-               ;
-int x= obj.toInt();
+
+        int twitterUsernameValidBoolean = obj.toInt();
                System.out.println(obj);
-        if(x==0) //check if valid
+        if(twitterUsernameValidBoolean==0) //check if valid
         {
             tusername.setError("Twitter Username is invalid");
             tusername.requestFocus();

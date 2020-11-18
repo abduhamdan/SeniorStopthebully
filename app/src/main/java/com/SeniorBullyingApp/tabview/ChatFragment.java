@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 
 import com.SeniorBullyingApp.tabview.Adapters.MessageAdapter;
 import com.google.firebase.auth.FirebaseAuth;
@@ -45,7 +46,7 @@ RecyclerView RVMessage;
 EditText textEntry;
 Button bt;
 User a;
-
+ProgressBar PBChat;
 
 
 
@@ -76,6 +77,7 @@ User a;
         bt=v.findViewById(R.id.sendMessage);
         bt.setOnClickListener(this);
         listofMessages=new ArrayList<>();
+        PBChat= v.findViewById(R.id.PBChat);
 
     }
 
@@ -83,7 +85,7 @@ User a;
     public void onClick(View view) {
         if (!TextUtils.isEmpty(textEntry.getText().toString()))
         {
-            Message x = new Message(textEntry.getText().toString(), a.getFname());
+            Message x = new Message(textEntry.getText().toString(), a.getTwitteru());
             textEntry.setText("");
             dr.push().setValue(x);
         }
@@ -111,7 +113,7 @@ User a;
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 a=dataSnapshot.getValue(User.class);
-                AllMethods.name=a.getFname();
+                AllMethods.username=a.getTwitteru();
             }
 
             @Override
@@ -181,8 +183,10 @@ User a;
 
 
     private void displayMessages(List<Message> listofMessages) {
+        PBChat.setVisibility(View.VISIBLE);
         RVMessage.setLayoutManager(new LinearLayoutManager(getContext()));
         mA= new MessageAdapter(getContext(), listofMessages,dr);
         RVMessage.setAdapter(mA);
+        PBChat.setVisibility(View.INVISIBLE);
     }
 }

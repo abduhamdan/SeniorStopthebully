@@ -84,7 +84,11 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageA
     @Override
     public void onBindViewHolder(@NonNull MessageAdapterViewHolder holder, int position) {
         Message Xmess = mList.get(position);
-        if (Xmess.getName().equals(AllMethods.name) )
+        if(Xmess.equals(null) || AllMethods.username.isEmpty())
+        {
+            System.out.println(Xmess.getUsername() + ", " + AllMethods.username);
+        }
+        else if (Xmess.getUsername().equals(AllMethods.username) )
         {
             holder.tvTitle.setText("You: "+ Xmess.getMessage());
             holder.tvTitle.setGravity(Gravity.RIGHT);
@@ -93,7 +97,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageA
         }
         else
         {
-            holder.tvTitle.setText(Xmess.getName()+": " + Xmess.getMessage());
+            holder.tvTitle.setText(Xmess.getUsername()+": " + Xmess.getMessage());
             holder.tvTitle.setGravity(Gravity.START);
             holder.l1.setBackgroundColor(Color.parseColor("#EF9E73"));
             holder.ml.setGravity(Gravity.LEFT);

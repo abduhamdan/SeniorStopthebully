@@ -8,6 +8,72 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:672962406596:android:0679f332d7d069d56b4191",
+        "android_client_info": {
+          "package_name": "com.SeniorBullyingApp.tabview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672962406596-1mvsk6jlibgcj9ve4o7pchg1om92vbc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNV6uBFpHXfMOr71gOVdF_bEWXhaU77n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672962406596-1mvsk6jlibgcj9ve4o7pchg1om92vbc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672962406596:android:032859d090a825be6b4191",
+        "android_client_info": {
+          "package_name": "com.example.seniordesignproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672962406596-mbci7c5gh7lummcte9nh5eogjbpk2vt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seniordesignproject",
+            "certificate_hash": "92fa2bd5cfcc925ac93f40664fbf650182036018"
+          }
+        },
+        {
+          "client_id": "672962406596-1mvsk6jlibgcj9ve4o7pchg1om92vbc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNV6uBFpHXfMOr71gOVdF_bEWXhaU77n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672962406596-1mvsk6jlibgcj9ve4o7pchg1om92vbc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:672962406596:android:743f4f12d806b6836b4191",
         "android_client_info": {
           "package_name": "com.example.tabview"

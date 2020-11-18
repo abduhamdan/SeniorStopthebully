@@ -84,7 +84,8 @@
                         style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:visibility="gone" />
+                        android:visibility="gone"
+                        android:theme="@style/ProgressBarStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -228,13 +229,14 @@
 
                     <ProgressBar
                         android:id="@+id/weeklybullyingscorePB"
-                        style="?android:attr/progressBarStyleHorizontal"
+                        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:layout_marginLeft="25dp"
                         android:layout_marginRight="25dp"
                         android:layout_weight="1"
-                        android:progress="56"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progress"
                         android:progressTint="#DDFFFFFF" />
                 </TableRow>
 
@@ -386,6 +388,7 @@
                         android:layout_marginRight="25dp"
                         android:layout_weight="1"
                         android:progress="56"
+                        android:progressDrawable="@drawable/progress"
                         android:progressTint="#DDFFFFFF" />
                 </TableRow>
 
